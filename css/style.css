@@ -159,20 +159,21 @@ a{text-decoration: none;
             margin-left: 2px;
                     }
                     .habilidade{
-                        margin-left: -30px;
+                        margin-left: -35px;
                         margin-bottom: 0px;
                     }
                     .habilidade1{
-                        margin-left: -30px;
+                        margin-left: -35px;
                         margin-top: -10px;
                     }
                     .txt_hab{
                         flex:0.9;
                     }
                     .txt_hab-ht{
-                        margin-right: -4px;
+                        margin-right: 0px;
                         margin-left: 35px;
                     }
+                    
 
 }
 header{
@@ -230,7 +231,7 @@ header h1{
     font-size: 1rem;
 }
 header h2{
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     text-align: center;
 }
 }
