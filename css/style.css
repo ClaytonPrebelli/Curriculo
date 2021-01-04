@@ -29,26 +29,150 @@ aside img{
     margin-top: 0;
     margin-bottom: 0;
 }
+.cont1{
+    margin-top: 50px;
+}
+.habilidade{
+    display: flex;
+    margin-top: 15px;
+     margin-left: 0px;
+     margin-bottom: 0px;
+    font-weight: bold;
+    }
+    .habilidade1{
+        display: flex;  
+              
+         margin-left: 0px;
+         margin-top: -20px;
+        font-weight: bold;
+        }
+
+.txt_hab{
+    margin-right: 5px;
+    text-align: start;
+    margin-left: 0px;
+    flex: 0.3;
+    }
+.habili{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.marcador_lo{
+    margin-left: 15px;
+}
+.lo1{
+    margin-left: 0px;
+}
+.flex1{
+    margin-left: 0px;
+}
+.php1{
+    margin-left: 0px;
+}
+.my1{
+    margin-left: 0px;
+}
+.ht1{
+    margin-left: 0px;
+}
+.ht7,.ht6,.ht5,.ht4{
+    color:rgb(53, 102, 206);
+}
+.my7,.my6{
+    color:rgb(53, 102, 206);
+}
+.flex7,.flex6{
+    color:rgb(53, 102, 206);
+}
+.php7,.php6,.php5,.php4{
+    color:rgb(53, 102, 206);
+}
+.lo7{
+    color:rgb(53, 102, 206);
+}
+.texto_hab h1{
+    font-size: 1.7rem;
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
 .contato{
-    margin-top: 10;
+    margin-top: 10px;
     margin-left: 35px;
-    font-weight: bold;}
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 4px;
+}
+.contato:first-of-type{
+    margin-top: 10px;
+    margin-left: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 2px;
+}
+.txt_hab{
+    margin-top: 10px;
+    margin-left: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 4px;
+}
+.txt_hab-ht{
+    margin-top: 10px;
+    margin-left: 37px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 4px;
+}
+
+a{text-decoration: none;
+    color: inherit;
+}
     .icon{
         margin-right: 25px;
+        margin-top: 0;
+        margin-bottom: 0;
+        
     }
 @media (max-width:700px){
     aside{
-        display:flex;
-width: 220px;
+    display:flex;
+    min-width: 200px;
     margin-left: 0px;
     border-radius: 0 25px 0 25px;}
     .contato{
-        margin-top: 10;
-        margin-left: 5px;
-        font-weight: bold;}
+        margin-top: 10px;
+        margin-left: 2px;
+        font-weight: bold;
+        text-align: start;}
+        .contato:first-of-type{
+            margin-top: 10px;
+        margin-left: 2px;
+        font-weight: bold;
+        text-align: start;
+        }
         .icon{
             margin-right: 5px;
-        }
+            margin-left: 2px;
+                    }
+                    .habilidade{
+                        margin-left: -30px;
+                        margin-bottom: 0px;
+                    }
+                    .habilidade1{
+                        margin-left: -30px;
+                        margin-top: -10px;
+                    }
+                    .txt_hab{
+                        flex:0.9;
+                    }
+                    .txt_hab-ht{
+                        margin-right: -4px;
+                        margin-left: 35px;
+                    }
 
 }
 header{
@@ -95,8 +219,8 @@ header hr{
     background-color:  rgb(53, 102, 206);
 }
 @media (max-width:820px){
-    header{min-width: 100px;
-    margin-left: 5px;
+    header{min-width: 10px;
+    margin-left: 0px;
     margin-right: 0px;
 border-radius: 25px 0px 25px 0px;}
 header h1{
@@ -120,9 +244,10 @@ header h2{
     z-index: 4;
     width: 150px;
     background-color:rgb(53, 102, 206) ;
-    margin-top: 10px;
+    margin-top: 8px;
     margin-left:-25px;
-    padding: 2px 15px;
+    padding: 2px 15px 0px 15px;
+    margin-bottom: 0px;
     text-shadow: 2px 2px 2px rgb(2, 2, 2);
     border-radius: 0px 10px 0px 0px;
     box-shadow: 2px 0px 4px 0px rgba(0, 0, 0, 0.849);
@@ -131,12 +256,14 @@ section.cursos{
     display: flex;
     flex-direction: row ;
         justify-content: space-between;
+        
   }
   section.cursos ul{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row ;
     justify-content: start;	
+    margin-bottom: 0px;
 
   }
 .texto p{
@@ -151,4 +278,7 @@ section.cursos{
     margin-bottom: 15px;
     text-shadow: 1px 1px 2px rgb(2, 2, 2);
     font-size: 1rem;
+}
+.marcador4, .marcador5, .marcador6{
+    margin-bottom: 0px;
 }
